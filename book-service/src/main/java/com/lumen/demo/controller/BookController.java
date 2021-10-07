@@ -18,6 +18,6 @@ public class BookController {
 	
 	@GetMapping("/books/{bookId}")
 	public Book getBook(@PathVariable("bookId") int bookId) {
-		return service.getBook(bookId);
+		return service.getBook(bookId); 
 	}
 }
