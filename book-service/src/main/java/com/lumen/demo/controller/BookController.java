@@ -13,7 +13,7 @@ import com.lumen.demo.service.BookService;
 @RequestMapping("/api/v1")
 public class BookController {
 	
-	@Autowired
+	@Autowired 
 	private BookService service;
 	
 	@GetMapping("/books/{bookId}")
